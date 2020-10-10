@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
 {
     char automatic[] = "strace -c ls > "; //Modo automatico
     char interactive[] = "strace ls 2>&1 > ";//Modo interactivo
-    char list[] = "/Lista de directorios";
+    char list[] = "/null";
 
     if (strcmp(argv[1], "1") == 0)                    //El uno significa Modo 1 y es automatico
     {                                                 
